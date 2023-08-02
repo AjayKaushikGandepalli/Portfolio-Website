@@ -44,6 +44,14 @@
 .content .btn{
     margin: 1rem 0.2rem;
 }
+.content .btn.btn-light {
+    color: white; 
+    border: 1px solid white;
+    transition: all 0.3s ease; 
+}
+.content .btn.btn-light:hover {
+    color: black; 
+}
 @media screen and (max-width:640px){
     .hero .content h1{
         font-size: 3rem;
